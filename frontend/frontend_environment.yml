@@ -1,0 +1,10 @@
+name: frontend_environment
+channels:
+  - defaults
+dependencies:
+  - nodejs
+  - npm
+  - pip
+  - pip:
+    - react
+    - react-router-dom

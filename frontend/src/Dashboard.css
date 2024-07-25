@@ -1,0 +1,101 @@
+
+/* Adjust corner roundness */
+.custom-rounded {
+  border-radius: 10px; /* Adjust corner roundness as needed */
+}
+.custom-border {
+  border-width: 1px; /* Adjust border width as needed */
+}
+
+/* Adjust corner roundness */
+.custom-rounded {
+  border-radius: 10px; /* Adjust corner roundness as needed */
+}
+
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  .inventory-container {
+    margin-top: 20px; /* Adjust the margin as needed */
+    text-align: center; /* Center the text within the container */
+  }
+  
+  .inventory-header {
+    margin-bottom: 10px; /* Add some spacing between the header and the inventory data */
+  }
+
+  .inventory-data {
+    width: 175%;
+  }
+  .bar {
+    margin-bottom: 40px;
+
+  }
+
+
+
+.section-content {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+  
+  .box {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .box h2 {
+    margin-top: 0;
+  }
+  
+  .box p {
+    margin-bottom: 0;
+  }
+
+  .sidebar {
+    background-color: #f0f0f0; 
+    height: 100%;
+    width: 200px;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+  }
+  
+  .sidebar h2 {
+    color: white;
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 8px 16px;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    background-color: #555;
+  }
+
+  .inventory {
+    margin-left: 200px;
+    padding: 20px;
+  }
+

@@ -1,0 +1,12 @@
+/* SURAIYA KHOJA */
+
+
+.logo {
+    position: absolute;
+    padding: 0px;
+    top: 5px; 
+    left: 674px;
+    width: 150;
+    height: 150px;
+    z-index:1;
+}

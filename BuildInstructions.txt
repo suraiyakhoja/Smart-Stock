@@ -1,0 +1,50 @@
+Clone GitHub repository
+Navigate to the repository directory
+  cd smart-stock-499-capstone
+  git checkout suraiya-final
+
+Install python
+Open code in IDE
+Navigate to repository directory
+
+Terminal 1
+Install dependencies: 
+  cd frontend
+  npm install
+
+If there are conflicts with react-scripts and typescript:
+  npm uninstall typescript
+  npm install typescript@4.9.5
+  npm install 
+
+Run:
+  npm start
+
+
+Terminal 2 
+  cd backend
+
+Create virtual environment: 
+  python3 -m venv env
+
+Activate virtual environment: 
+  source env/bin/activate
+
+Install dependencies:
+  pip install flask
+  pip install flask_cors
+  pip install mysql.connector
+  pip install bcrypt
+  pip install mailjet_rest
+  pip install requests
+  pip install jwt
+  pip install flask_session
+  pip install flask-cors
+
+Run: 
+  python3 app.py
+
+
+
+
+S

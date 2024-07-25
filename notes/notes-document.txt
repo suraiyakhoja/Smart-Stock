@@ -1,0 +1,44 @@
+create smartstock/mvp main folder
+in main folder create backend folder
+in backend folder terminal 
+pip install virtualenv
+virtualenv venv
+
+venv\Scripts\activate
+for when scripts are not allowed to be run
+Set-ExecutionPolicy Unrestricted -Scope Process
+
+
+
+pip install flask
+
+copy app.py, backend environment, test_authen into backend
+pip install flask_cors
+pip install bcrypt
+pip install mysql-connector-python
+pip install requests
+
+
+set FLASK_APP=app
+
+python -m flask --version
+flask run
+python -m flask run
+
+cd mainfolder
+if no npm folder
+npm install npm -g
+
+npx create-react-app frontend  --template typescript
+
+
+copy Registration.css, etc
+update gitignore
+npm install react-router-dom
+npm run start
+
+npm run start
+
+
+
+

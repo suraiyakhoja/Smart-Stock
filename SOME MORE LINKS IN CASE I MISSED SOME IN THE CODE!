@@ -1,0 +1,172 @@
+SOME MORE LINKS IN CASE I MISSED SOME IN THE CODE!! - Suraiya 
+
+React Tutorial for Beginners:  
+https://www.youtube.com/watch?v=SqcY0GlETPk
+
+React Using TypeScript
+https://react.dev/learn/typescript
+
+How to use TypeScript with React: A tutorial with examples
+https://blog.logrocket.com/how-to-use-typescript-react-tutorial-examples/
+
+React with TypeScript
+https://create-react-app.dev/docs/adding-typescript/
+
+useState in React: a complete guide
+https://blog.logrocket.com/guide-usestate-react/#
+
+Flask;)
+https://code.visualstudio.com/docs/python/tutorial-flask
+
+Installing MySQL?
+https://github.com/PyMySQL/mysqlclient#install 
+
+https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-installing
+
+MySQL Workbench
+https://www.mysql.com/products/workbench/
+
+Solved “import ‘flask’ could not be resolved”
+https://stackoverflow.com/questions/65694813/import-flask-could-not-be-resolved-from-source-pylance
+
+MySQL Connection
+ https://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html
+
+
+Hashing: 
+https://stackoverflow.com/questions/48761260/bcrypt-encoding-error
+
+Querying database: 
+https://www.red-gate.com/simple-talk/databases/mysql/retrieving-mysql-data-python/
+
+User Login and Register System with Python, Flask, MySQL: 
+https://www.youtube.com/watch?v=zjvfeho2890
+
+Manage Your React (TypeScript) Application State Using Redux Toolkit 
+https://blog.stackademic.com/manage-your-react-typescript-application-state-using-redux-toolkit-926d3b4abaa7
+
+Login Page using React + Node + MySql
+https://www.youtube.com/watch?v=jwEbw0zJqiY
+
+Authentication in React app using Flask server-Sided Sessions
+https://www.youtube.com/watch?v=sBw0O5YTT4Q
+
+API call in Redux Toolkit 
+https://www.youtube.com/watch?v=wx1v2F2XFb4
+
+Python Flask Authentication Tutorial – Learn Flask Login
+https://www.youtube.com/watch?v=71EU8gnZqZQ
+
+
+Bootstrap
+https://getbootstrap.com/docs/5.0/customize/components/
+
+How Flask works
+https://pythonhow.com/python-tutorial/flask/How-a-Flask-app-works/
+
+React navigate to URl 
+https://www.js-craft.io/blog/react-navigate-to-url/
+
+Understanding Error Codes
+https://bootcamp.uxdesign.cc/understanding-error-codes-in-software-development-fbdf62fc585
+
+Status Codes
+https://www.lambdatest.com/learning-hub/pytest-api-testing
+
+Python MySQL – Cursor object
+https://www.tutorialspoint.com/python_data_access/python_mysql_cursor_object.htm#:~:text=The%20MySQLCursor%20of%20mysql%2Dconnector,the%20result%20sets%2C%20call%20procedures.
+
+useNavigate example
+https://medium.com/@bobjunior542/using-usenavigate-in-react-router-6-a-complete-guide-46f51403f430
+
+
+cursor.fetchone()
+https://dev.mysql.com/doc/connector-python/en/connector-python-api-mysqlcursor-fetchone.html
+
+Test if a row exists in MySQL (check if user and email already exist)
+https://www.tutorialspoint.com/best-way-to-test-if-a-row-exists-in-a-mysql-table#:~:text=To%20test%20whether%20a%20row,table%2C%20otherwise%20false%20is%20returned.
+
+Password validation in Python
+https://www.geeksforgeeks.org/password-validation-in-python/
+
+Password length and classic password meme
+https://stackoverflow.com/questions/98768/should-i-impose-a-maximum-length-on-passwords
+
+Login system with Python Flask and MySQL
+https://codeshack.io/login-system-python-flask-mysql/
+
+Running unit testing with Github Actions
+https://www.youtube.com/watch?v=0lbDMomNt4A
+
+Testing Flask Apps
+https://flask.palletsprojects.com/en/3.0.x/testing/
+
+Flask.test_client
+https://tedboy.github.io/flask/generated/generated/flask.Flask.test_client.html#:~:text=testing%20%3D%20True%20client%20%3D%20app.,with%20app.
+
+
+Python: How to validate an email address 
+https://docs.kickbox.com/docs/python-validate-an-email-address
+
+Using Regular Expressions for Password Validation in Python
+https://www.javatpoint.com/password-validation-in-python#:~:text=One%20way%20to%20validate%20a,to%20import%20the%20re%20module.
+
+onChange={(e) => setName(e.target.value)} 
+https://stackoverflow.com/questions/71039088/what-is-onchange-e-setnamee-target-value-in-react-mean
+
+How to change column position of MySQL table 
+https://stackoverflow.com/questions/10718905/how-to-change-the-column-position-of-mysql-table-without-losing-column-data
+
+Screen recording
+https://support.apple.com/guide/mac-help/take-a-screenshot-mh26782/mac
+
+JSON Parsing Errors in Python 
+https://www.geeksforgeeks.org/json-parsing-errors-in-python/
+
+Difference between except: and except Exception as e: (email verification) 
+https://stackoverflow.com/questions/18982610/difference-between-except-and-except-exception-as-e
+
+Dropdown menu for Role 
+https://www.geeksforgeeks.org/how-to-use-html-select-tag-in-reactjs/
+
+
+Email validation error 500 internal error potential solution that doesn’t work for me;(
+https://stackoverflow.com/questions/50950011/axios-post-request-fails-with-error-status-code-500-internal-server-error
+
+response.json() – Python requests 
+https://www.geeksforgeeks.org/response-json-python-requests/
+
+Something with logout
+https://www.youtube.com/watch?v=sBw0O5YTT4Q
+
+Something else with logout
+https://www.youtube.com/watch?v=l66XCSaeTys
+
+
+
+Commands
+45-70,87-97
+Getting python environment back
+source .venv/bin/activate
+
+
+Kill the current process
+lsof -i :5000
+	returns PID
+kill -9 1234
+	replace 1234 with PID
+
+
+MySQL terminal
+mysql -u root -p
+Ch0colatecake!
+
+mysql> SHOW DATABASES;
+
+mysql> USE my_inventory;
+
+
+To commit: 
+git push origin main
+
+

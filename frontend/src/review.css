@@ -1,0 +1,82 @@
+/* review.css Nick*/
+/* style sheet for review table*/
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 38px;
+  }
+  
+  /*https://react.school/ui/button*/
+  /*style for buttons*/
+  .review-container button {
+    border: 0;
+    outline: 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 5px 20px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #6e1ab8;
+    box-shadow: 0px 2px 2px rgb(102, 99, 99);
+    transition: ease background-color 240ms;
+  }
+  
+  /*https://www.codevertiser.com/editable-text-field-in-table-using-reactjs */
+  /*style for review container*/
+  .review-container {
+    width: 100%;
+    max-width: 1250px;
+    padding: 0 9px;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
+  
+  .review-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .review-container tr th {
+    font-size: 17px;
+    padding: 11px;
+    border: 1px solid #eeeeee;
+    text-align: center;
+    background-color: rgba(26, 7, 237, 0.484);
+  }
+  
+  .review-container tr td {
+    border: 1px solid #eeeeee;
+    text-align: center;
+  }
+  
+  .review-container input {
+    font-size: 16px;
+    border: 0;
+    width: 89%;
+    padding: 10px 9px;
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  .review-container input:hover {
+    background-color: #fffaf4;
+  }
+  
+  .review-container input:focus {
+    outline: 1px solid #cccccc45;
+    border: 1px solid #cccccc4e;
+  }
+  
+  .review-container select {
+    appearance: none;
+    background: #fff;
+    text-align: center;
+    padding: 3px 7px;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 10px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }

@@ -1,0 +1,70 @@
+/* forecast.css Nick*/
+/* style sheet for forecast table*/
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 38px;
+  }
+  
+  /*https://react.school/ui/button*/
+  /*style for buttons*/
+  .forecast-container button {
+    border: 0;
+    outline: 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 5px 20px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #6e1ab8;
+    box-shadow: 0px 2px 2px rgb(102, 99, 99);
+    transition: ease background-color 240ms;
+  }
+  
+  /*https://www.codevertiser.com/editable-text-field-in-table-using-reactjs */
+  /*style for forecast container*/
+  .forecast-container {
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 9px;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
+  
+  .forecast-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .forecast-container tr th {
+    font-size: 17px;
+    padding: 11px;
+    border: 1px solid #eeeeee;
+    text-align: center;
+    background-color: rgba(50, 194, 25, 0.2);
+  }
+  
+  .forecast-container tr td {
+    border: 1px solid #eeeeee;
+    text-align: center;
+  }
+  
+  .forecast-container input {
+    font-size: 16px;
+    border: 0;
+    width: 89%;
+    padding: 10px 9px;
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  .forecast-container input:hover {
+    background-color: #fffaf4;
+  }
+  
+  .forecast-container input:focus {
+    outline: 1px solid #cccccc45;
+    border: 1px solid #cccccc4e;
+  }

@@ -1,0 +1,59 @@
+command prompt python --version
+py desktop/test.py
+or cd desktop 
+py test.py
+"code-runner.runInTerminal": true,
+in cmd code . opens vsc
+
+IDKMANgetmemycap312!
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin
+mysql --version
+mysql -h localhost -P 3306 -u root -p
+show databases;
+create database testbase;
+create table emp (
+deptno int,
+ename varchar(100),
+job varchar(100),
+sal int,
+comm int
+);
+use testbase;  (do this after create
+select *from emp;
+insert into emp values (1, 'BLAKE', 'PRESIDENT', 1000, null);
+insert into emp values (2, 'KING', 'SALESMAN', 2000, 50);
+insert into emp values (2, 'EARTH', 'MARS', 4000, 10);
+system cls
+select *from emp;
+pip install virtualenv
+virtualenv env
+
+env\Scripts\activate
+
+pip install flask
+
+
+create user 'Bobby'@'%' identified with mysql_native_password by 'IDKMANgetmemycap312!';
+
+grant all privileges on *.* to 'Bobby';
+
+flush privileges;
+
+
+
+cd path/to/your/flask/app
+pip install virtualenv
+virtualenv venv
+venv\Scripts\activate
+pip install Flask
+set FLASK_APP=app
+flask run
+python -m flask run
+python -m flask run
+
+pip install mysql-connector-python
+
+npm run start
+
+npm run start

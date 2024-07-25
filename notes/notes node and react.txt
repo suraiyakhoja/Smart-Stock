@@ -1,0 +1,202 @@
+go to folder with the js file
+press shift and right click anywhere on folder 
+go to cmd prompt or powerhell
+node something.js
+server would run on ocal port
+
+node .\Hello.js
+
+in a html file press ! then enter for quick shortvut
+
+npm init -y
+to create a new project i empty filder
+
+npm install mysql
+npm install body-parser
+
+in package.json 
+ "main": "index.js",
+  "type": "module", 
+if using 
+//modern way * means everything
+import * as fs from 'fs'
+else leave alone and use 
+//common JS module using require old way
+const fs = require('fs')
+
+npm install express
+npm install cors
+
+
+mkdir mvpapp
+cd mvpapp
+npx create-react-app client
+npx create-react-app  --template typescript
+
+C:\Users\Bobby\AppData\Roaming\npm
+cd server
+npm init
+npm install express
+
+cd cleint npm install axios
+
+npm run start
+
+server npm install cors
+
+
+ALTER USER 'root'@'localhost' IDENTIFIED 
+WITH mysql_native_password BY 'IDKMANgetmemycap312!';
+flush privileges;
+
+<button onClick={apiCall}>Make API call</button>
+
+
+Express.js is used for a wide range of things in the JavaScript/Node.js ecosystem — 
+you can develop applications, API endpoints, routing systems, and frameworks with it.
+Express.js is a web application framework for Node.js, a runtime environment for executing JavaScript code outside of a web browser
+
+
+https://www.npmjs.com/package/mysql
+
+Pooling connections
+var mysql = require('mysql');
+var pool  = mysql.createPool({
+  connectionLimit : 10,
+  host            : 'example.org',
+  user            : 'bob',
+  password        : 'secret',
+  database        : 'my_db'
+});
+
+
+https://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html
+
+ Connecting to MySQL Using Connector/Python
+import mysql.connector
+
+cnx = mysql.connector.connect(user='scott', password='password',
+                              host='127.0.0.1',
+                              database='employees')
+cnx.close()
+
+
+To handle connection errors, use the try statement and catch all errors using the errors.Error exception:
+
+
+import mysql.connector
+from mysql.connector import errorcode
+
+try:
+  cnx = mysql.connector.connect(user='scott',
+                                database='employ')
+except mysql.connector.Error as err:
+  if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
+    print("Something is wrong with your user name or password")
+  elif err.errno == errorcode.ER_BAD_DB_ERROR:
+    print("Database does not exist")
+  else:
+    print(err)
+else:
+  cnx.close()
+
+
+https://www.npmjs.com/package/mysql#escaping-query-identifiers
+
+ can use ? characters as placeholders for values you would like to have escaped like this:
+
+connection.query('SELECT * FROM users WHERE id = ?', [userId], function (error, results, fields) {
+  if (error) throw error;
+  // ...
+});
+
+
+
+  https://www.geeksforgeeks.org/linking-of-mysql-database-in-node-js-backend-side/
+
+  Linking of MySql Database in Node.js Backend Side
+
+  npm install mysql
+
+Create Connection & Database:
+const mysql = require('mysql');
+const con = mysql.createConnection({
+    host: "localhost",
+    user: "yourusername",
+    password: "yourpassword"
+});
+ 
+// Created the Connection
+/*con.connect(function(err) {
+if (err) throw err;
+console.log("Connected!");
+});*/
+ 
+// Created the Database named as "gfg"
+con.connect(function (err) {
+    if (err) throw err;
+    console.log("Connected!");
+ 
+    con.query("CREATE DATABASE gfg",
+        function (err, result) {
+            if (err) throw err;
+            console.log("Database created");
+        });
+});
+
+Run the db.js file using the following command:
+
+node db.js
+
+Query a Database:
+
+const mysql = require('mysql');
+const con = mysql.createConnection({
+	host: "localhost",
+	user: "yourusername",
+	password: "yourpassword",
+	database: "gfg"
+});
+
+con.connect(function (err) {
+	if (err) throw err;
+	console.log("Connected!");
+
+	// var sql = "CREATE TABLE
+	// geeksforgeeks (name VARCHAR(255),
+	// address VARCHAR(255))";
+
+	// var sql = "ALTER TABLE
+	// geeksforgeeks ADD COLUMN id INT
+	// AUTO_INCREMENT PRIMARY KEY";
+
+	const sql1 = "CREATE TABLE geeksforgeeks "
+		+ "(id INT AUTO_INCREMENT PRIMARY KEY," +
+		" name VARCHAR(255), address VARCHAR(255))";
+
+	const sql2 = "INSERT INTO geeksforgeeks (name, "
+		+ "address) VALUES ('Company Inc', "
+		+ "'Highway 37')";
+
+	const sql3 = "SELECT * FROM geeksforgeeks "
+		+ "WHERE address = 'Highway 37'";
+
+	con.query(sql1, function (err, result) {
+		if (err) throw err;
+		console.log("Table created");
+	});
+
+	con.query(sql2, function (err, result) {
+		if (err) throw err;
+		console.log("Insertion Successful");
+	});
+
+	con.query(sql3, function (err, result) {
+		if (err) throw err;
+		console.log(result);
+	});
+});
+
+Run the table.js file using the following command:
+
+node table.js

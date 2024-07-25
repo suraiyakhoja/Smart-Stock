@@ -1,0 +1,35 @@
+Suraiya 
+- Sometimes running python app.py will stop working when it reaches a certain point in the code and you 
+  will have to run it again. It stops working after trying to display Low Stock data so you won't see any 
+  inventory data on the screen and you will have to do it again. 
+
+- I was supposed to add a custom marker and popups to the map so users will know when product reached its 
+  destination, but I ran out of time. Right now the markers look the same and its tricky to tell which markers
+  mean what.
+
+- Managing addresses on the map allows users to add and delete addresses and their markers would show up 
+  on the map, but I was trying to get it to show up on the dashboard when users are buying/selling. The 
+  dropdown menu was supposed to update with those addresses, but I couldn't send the data to the dashboard. 
+  Currently the addresses in the dashboard dropdown menu have been hardcoded. 
+
+- Sessions were supposed to be managed using JWT tokens but it never worked. The logout right now is inefficient 
+  because it just redirects to the login page and clears local storage of the username, but I could not figure
+  out how to get the token to show up in the inspector tools. The username was supposed to be saved but when I 
+  would print a statement to the console to see if it was, it would print an empty string. 
+
+- Buy/Sell feature does not work the first time. 
+
+
+Nick
+Forecast Feature
+- Only Suggested Price has precision that is set to 2 decimal places. Target Profit and Unit Cost are integers.
+- Total profit calculated using suggested price does not exactly match the input due to rounding issue.
+- Forecast Unit and Unit Cost can be negative.
+- The input data will be lost when you leave or refresh the page.
+
+Review Feature
+- The remark column comment might get cutoff when the comment is too long.
+- The input data will be lost when you leave or refresh the page.
+
+
+

@@ -1,0 +1,53 @@
+
+
+body {
+  background-color: #fff; 
+  margin: 0; 
+  padding: 0; 
+}
+
+
+.form-control {
+  width: 500px;
+}
+
+.form-group {
+  padding: 12px;
+}
+
+
+a {
+  text-decoration: none; 
+  color: #007bff; 
+}
+
+a:hover {
+  text-decoration: none; 
+}
+
+.mt-6 {
+  margin-top: 10rem; 
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 60vh;
+  top: 0;
+  left:0;
+  width: 100vh;
+  z-index:0;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.login-container {
+  position: relative;
+  z-index: 1;
+}
